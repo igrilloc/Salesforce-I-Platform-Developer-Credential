@@ -8,7 +8,7 @@ public class InsertingNewAccountHandler {
             return acct;
         
         } catch (DMLException error) {
-            
+             
             System.debug('A DML exception has occurred: ' + error.getMessage());
             return null;
             
