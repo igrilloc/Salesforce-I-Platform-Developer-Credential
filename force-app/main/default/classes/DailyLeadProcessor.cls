@@ -1,7 +1,7 @@
 public class DailyLeadProcessor implements Schedulable {
     
     Public void execute(SchedulableContext SC) {
-       
+     
         List<Lead> lead_Query = [
             SELECT Id 
             FROM Lead 
